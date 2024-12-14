@@ -64,7 +64,7 @@ public partial class MainForm : Form
     }
     private bool GetPlacementRightFrogs(PictureBox clickedPicture)
     {
-        return FrogPictureBox5.Location.X <= 330 && FrogPictureBox6.Location.X <= 330 && FrogPictureBox7.Location.X <=  330 && FrogPictureBox8.Location.X <= 330;
+        return FrogPictureBox5.Location.X <= 330 && FrogPictureBox6.Location.X <= 330 && FrogPictureBox7.Location.X <= 330 && FrogPictureBox8.Location.X <= 330;
     }
     private void StopFrogMove()
     {
@@ -115,5 +115,5 @@ public partial class MainForm : Form
         MainForm mainForm = new MainForm();
         mainForm.ShowDialog();
         this.Close();
-    }    
+    }
 }

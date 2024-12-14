@@ -64,9 +64,10 @@
             // 
             FrogPictureBox1.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox1.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox1.Location = new System.Drawing.Point(0, 0);
+            FrogPictureBox1.Location = new System.Drawing.Point(196, 0);
+            FrogPictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox1.Name = "FrogPictureBox1";
-            FrogPictureBox1.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox1.Size = new System.Drawing.Size(109, 113);
             FrogPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox1.TabIndex = 0;
             FrogPictureBox1.TabStop = false;
@@ -76,9 +77,10 @@
             // 
             FrogPictureBox2.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox2.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox2.Location = new System.Drawing.Point(110, 0);
+            FrogPictureBox2.Location = new System.Drawing.Point(302, 0);
+            FrogPictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox2.Name = "FrogPictureBox2";
-            FrogPictureBox2.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox2.Size = new System.Drawing.Size(107, 113);
             FrogPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox2.TabIndex = 1;
             FrogPictureBox2.TabStop = false;
@@ -88,9 +90,10 @@
             // 
             FrogPictureBox3.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox3.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox3.Location = new System.Drawing.Point(220, 0);
+            FrogPictureBox3.Location = new System.Drawing.Point(408, 0);
+            FrogPictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox3.Name = "FrogPictureBox3";
-            FrogPictureBox3.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox3.Size = new System.Drawing.Size(107, 113);
             FrogPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox3.TabIndex = 2;
             FrogPictureBox3.TabStop = false;
@@ -100,9 +103,10 @@
             // 
             FrogPictireBox4.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictireBox4.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictireBox4.Location = new System.Drawing.Point(330, 0);
+            FrogPictireBox4.Location = new System.Drawing.Point(514, 0);
+            FrogPictireBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictireBox4.Name = "FrogPictireBox4";
-            FrogPictireBox4.Size = new System.Drawing.Size(110, 110);
+            FrogPictireBox4.Size = new System.Drawing.Size(110, 113);
             FrogPictireBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictireBox4.TabIndex = 3;
             FrogPictireBox4.TabStop = false;
@@ -112,9 +116,10 @@
             // 
             EmptyPictureBox.BackgroundImage = Properties.Resources.Болотный_лист;
             EmptyPictureBox.InitialImage = Properties.Resources.Лягушка_вправо;
-            EmptyPictureBox.Location = new System.Drawing.Point(440, 0);
+            EmptyPictureBox.Location = new System.Drawing.Point(621, 0);
+            EmptyPictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             EmptyPictureBox.Name = "EmptyPictureBox";
-            EmptyPictureBox.Size = new System.Drawing.Size(110, 110);
+            EmptyPictureBox.Size = new System.Drawing.Size(107, 113);
             EmptyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             EmptyPictureBox.TabIndex = 4;
             EmptyPictureBox.TabStop = false;
@@ -123,9 +128,10 @@
             // 
             FrogPictureBox5.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox5.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox5.Location = new System.Drawing.Point(550, 0);
+            FrogPictureBox5.Location = new System.Drawing.Point(725, 0);
+            FrogPictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox5.Name = "FrogPictureBox5";
-            FrogPictureBox5.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox5.Size = new System.Drawing.Size(111, 113);
             FrogPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox5.TabIndex = 5;
             FrogPictureBox5.TabStop = false;
@@ -135,9 +141,10 @@
             // 
             FrogPictureBox6.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox6.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox6.Location = new System.Drawing.Point(660, 0);
+            FrogPictureBox6.Location = new System.Drawing.Point(835, 0);
+            FrogPictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox6.Name = "FrogPictureBox6";
-            FrogPictureBox6.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox6.Size = new System.Drawing.Size(107, 113);
             FrogPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox6.TabIndex = 6;
             FrogPictureBox6.TabStop = false;
@@ -147,9 +154,10 @@
             // 
             FrogPictureBox7.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox7.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox7.Location = new System.Drawing.Point(770, 0);
+            FrogPictureBox7.Location = new System.Drawing.Point(941, 0);
+            FrogPictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox7.Name = "FrogPictureBox7";
-            FrogPictureBox7.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox7.Size = new System.Drawing.Size(106, 113);
             FrogPictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox7.TabIndex = 7;
             FrogPictureBox7.TabStop = false;
@@ -159,9 +167,10 @@
             // 
             FrogPictureBox8.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox8.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox8.Location = new System.Drawing.Point(880, 0);
+            FrogPictureBox8.Location = new System.Drawing.Point(1045, 0);
+            FrogPictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox8.Name = "FrogPictureBox8";
-            FrogPictureBox8.Size = new System.Drawing.Size(110, 110);
+            FrogPictureBox8.Size = new System.Drawing.Size(106, 113);
             FrogPictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox8.TabIndex = 8;
             FrogPictureBox8.TabStop = false;
@@ -171,9 +180,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            label1.Location = new System.Drawing.Point(149, 159);
+            label1.Location = new System.Drawing.Point(213, 265);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(239, 19);
+            label1.Size = new System.Drawing.Size(353, 28);
             label1.TabIndex = 9;
             label1.Text = "Количество сделанных ходов";
             // 
@@ -181,9 +191,10 @@
             // 
             CountStepLabel.AutoSize = true;
             CountStepLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            CountStepLabel.Location = new System.Drawing.Point(396, 159);
+            CountStepLabel.Location = new System.Drawing.Point(566, 265);
+            CountStepLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             CountStepLabel.Name = "CountStepLabel";
-            CountStepLabel.Size = new System.Drawing.Size(18, 19);
+            CountStepLabel.Size = new System.Drawing.Size(26, 28);
             CountStepLabel.TabIndex = 10;
             CountStepLabel.Text = "0";
             // 
@@ -191,9 +202,10 @@
             // 
             WinTextLabel.AutoSize = true;
             WinTextLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            WinTextLabel.Location = new System.Drawing.Point(149, 199);
+            WinTextLabel.Location = new System.Drawing.Point(213, 332);
+            WinTextLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             WinTextLabel.Name = "WinTextLabel";
-            WinTextLabel.Size = new System.Drawing.Size(527, 19);
+            WinTextLabel.Size = new System.Drawing.Size(780, 28);
             WinTextLabel.TabIndex = 11;
             WinTextLabel.Text = "Вы выйграли, смогли уложится в минимальное количество ходов!";
             WinTextLabel.Visible = false;
@@ -202,9 +214,10 @@
             // 
             InfoLabelAfterEnd.AutoSize = true;
             InfoLabelAfterEnd.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            InfoLabelAfterEnd.Location = new System.Drawing.Point(149, 246);
+            InfoLabelAfterEnd.Location = new System.Drawing.Point(213, 410);
+            InfoLabelAfterEnd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             InfoLabelAfterEnd.Name = "InfoLabelAfterEnd";
-            InfoLabelAfterEnd.Size = new System.Drawing.Size(780, 19);
+            InfoLabelAfterEnd.Size = new System.Drawing.Size(1157, 28);
             InfoLabelAfterEnd.TabIndex = 12;
             InfoLabelAfterEnd.Text = "Вы закончили игру, но не за минимальное количество ходов! Минимальное количество ходов - 24!";
             InfoLabelAfterEnd.Visible = false;
@@ -213,9 +226,10 @@
             // 
             ContinueGameLabel.AutoSize = true;
             ContinueGameLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            ContinueGameLabel.Location = new System.Drawing.Point(149, 291);
+            ContinueGameLabel.Location = new System.Drawing.Point(213, 485);
+            ContinueGameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             ContinueGameLabel.Name = "ContinueGameLabel";
-            ContinueGameLabel.Size = new System.Drawing.Size(266, 19);
+            ContinueGameLabel.Size = new System.Drawing.Size(394, 28);
             ContinueGameLabel.TabIndex = 13;
             ContinueGameLabel.Text = "Хотели бы Вы поиграть еще раз?";
             ContinueGameLabel.Visible = false;
@@ -224,9 +238,10 @@
             // 
             PlayButton.BackColor = System.Drawing.Color.RosyBrown;
             PlayButton.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            PlayButton.Location = new System.Drawing.Point(149, 323);
+            PlayButton.Location = new System.Drawing.Point(213, 538);
+            PlayButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             PlayButton.Name = "PlayButton";
-            PlayButton.Size = new System.Drawing.Size(234, 56);
+            PlayButton.Size = new System.Drawing.Size(334, 93);
             PlayButton.TabIndex = 14;
             PlayButton.Text = "Играть!";
             PlayButton.UseVisualStyleBackColor = false;
@@ -239,9 +254,10 @@
             // 
             StopGameButton.BackColor = System.Drawing.Color.RosyBrown;
             StopGameButton.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            StopGameButton.Location = new System.Drawing.Point(415, 323);
+            StopGameButton.Location = new System.Drawing.Point(593, 538);
+            StopGameButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             StopGameButton.Name = "StopGameButton";
-            StopGameButton.Size = new System.Drawing.Size(234, 56);
+            StopGameButton.Size = new System.Drawing.Size(334, 93);
             StopGameButton.TabIndex = 15;
             StopGameButton.Text = "Выход!";
             StopGameButton.UseVisualStyleBackColor = false;
@@ -255,9 +271,10 @@
             WinPictureBox.AccessibleDescription = "";
             WinPictureBox.BackgroundImage = Properties.Resources.Лягушка;
             WinPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            WinPictureBox.Location = new System.Drawing.Point(720, 132);
+            WinPictureBox.Location = new System.Drawing.Point(1029, 220);
+            WinPictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             WinPictureBox.Name = "WinPictureBox";
-            WinPictureBox.Size = new System.Drawing.Size(209, 178);
+            WinPictureBox.Size = new System.Drawing.Size(298, 161);
             WinPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             WinPictureBox.TabIndex = 16;
             WinPictureBox.TabStop = false;
@@ -272,7 +289,8 @@
             WordPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             WordPictureBox.ErrorImage = Properties.Resources.pobeda_8_02;
             WordPictureBox.InitialImage = (System.Drawing.Image)resources.GetObject("WordPictureBox.InitialImage");
-            WordPictureBox.Location = new System.Drawing.Point(720, 300);
+            WordPictureBox.Location = new System.Drawing.Point(1067, 443);
+            WordPictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             WordPictureBox.Name = "WordPictureBox";
             WordPictureBox.Size = new System.Drawing.Size(209, 57);
             WordPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -282,11 +300,11 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            ClientSize = new System.Drawing.Size(990, 450);
+            ClientSize = new System.Drawing.Size(1414, 750);
             Controls.Add(WordPictureBox);
             Controls.Add(WinPictureBox);
             Controls.Add(StopGameButton);
@@ -305,6 +323,7 @@
             Controls.Add(FrogPictureBox3);
             Controls.Add(FrogPictureBox2);
             Controls.Add(FrogPictureBox1);
+            Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             Name = "MainForm";
             Text = "Лягушки";
             Load += MainForm_Load;
