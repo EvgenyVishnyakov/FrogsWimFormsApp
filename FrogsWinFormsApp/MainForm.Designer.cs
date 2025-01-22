@@ -62,24 +62,28 @@
             // 
             // FrogPictureBox1
             // 
+            FrogPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox1.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox1.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox1.Location = new System.Drawing.Point(196, 0);
             FrogPictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox1.Name = "FrogPictureBox1";
+            FrogPictureBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox1.Size = new System.Drawing.Size(109, 113);
-            FrogPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            FrogPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             FrogPictureBox1.TabIndex = 0;
             FrogPictureBox1.TabStop = false;
             FrogPictureBox1.Click += PictireBox_Click;
             // 
             // FrogPictureBox2
             // 
+            FrogPictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox2.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox2.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox2.Location = new System.Drawing.Point(302, 0);
             FrogPictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox2.Name = "FrogPictureBox2";
+            FrogPictureBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox2.Size = new System.Drawing.Size(107, 113);
             FrogPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox2.TabIndex = 1;
@@ -88,9 +92,10 @@
             // 
             // FrogPictureBox3
             // 
+            FrogPictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox3.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox3.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox3.Location = new System.Drawing.Point(408, 0);
+            FrogPictureBox3.Location = new System.Drawing.Point(409, 0);
             FrogPictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox3.Name = "FrogPictureBox3";
             FrogPictureBox3.Size = new System.Drawing.Size(107, 113);
@@ -101,6 +106,7 @@
             // 
             // FrogPictireBox4
             // 
+            FrogPictireBox4.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictireBox4.BackgroundImage = Properties.Resources.Лягушка_вправо;
             FrogPictireBox4.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictireBox4.Location = new System.Drawing.Point(514, 0);
@@ -114,6 +120,7 @@
             // 
             // EmptyPictureBox
             // 
+            EmptyPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             EmptyPictureBox.BackgroundImage = Properties.Resources.Болотный_лист;
             EmptyPictureBox.InitialImage = Properties.Resources.Лягушка_вправо;
             EmptyPictureBox.Location = new System.Drawing.Point(621, 0);
@@ -126,6 +133,7 @@
             // 
             // FrogPictureBox5
             // 
+            FrogPictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox5.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox5.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox5.Location = new System.Drawing.Point(725, 0);
@@ -139,9 +147,10 @@
             // 
             // FrogPictureBox6
             // 
+            FrogPictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox6.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox6.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox6.Location = new System.Drawing.Point(835, 0);
+            FrogPictureBox6.Location = new System.Drawing.Point(831, 0);
             FrogPictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox6.Name = "FrogPictureBox6";
             FrogPictureBox6.Size = new System.Drawing.Size(107, 113);
@@ -152,9 +161,10 @@
             // 
             // FrogPictureBox7
             // 
+            FrogPictureBox7.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox7.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox7.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox7.Location = new System.Drawing.Point(941, 0);
+            FrogPictureBox7.Location = new System.Drawing.Point(937, 0);
             FrogPictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox7.Name = "FrogPictureBox7";
             FrogPictureBox7.Size = new System.Drawing.Size(106, 113);
@@ -165,9 +175,10 @@
             // 
             // FrogPictureBox8
             // 
+            FrogPictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             FrogPictureBox8.BackgroundImage = Properties.Resources.Лягушка_влево;
             FrogPictureBox8.InitialImage = Properties.Resources.Лягушка_вправо;
-            FrogPictureBox8.Location = new System.Drawing.Point(1045, 0);
+            FrogPictureBox8.Location = new System.Drawing.Point(1042, 0);
             FrogPictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             FrogPictureBox8.Name = "FrogPictureBox8";
             FrogPictureBox8.Size = new System.Drawing.Size(106, 113);
@@ -269,12 +280,13 @@
             // WinPictureBox
             // 
             WinPictureBox.AccessibleDescription = "";
+            WinPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             WinPictureBox.BackgroundImage = Properties.Resources.Лягушка;
             WinPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             WinPictureBox.Location = new System.Drawing.Point(1029, 220);
             WinPictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             WinPictureBox.Name = "WinPictureBox";
-            WinPictureBox.Size = new System.Drawing.Size(298, 161);
+            WinPictureBox.Size = new System.Drawing.Size(298, 160);
             WinPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             WinPictureBox.TabIndex = 16;
             WinPictureBox.TabStop = false;
@@ -302,6 +314,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            AutoSize = true;
             BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             ClientSize = new System.Drawing.Size(1414, 750);
@@ -323,6 +336,7 @@
             Controls.Add(FrogPictureBox3);
             Controls.Add(FrogPictureBox2);
             Controls.Add(FrogPictureBox1);
+            ImeMode = System.Windows.Forms.ImeMode.Off;
             Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             Name = "MainForm";
             Text = "Лягушки";

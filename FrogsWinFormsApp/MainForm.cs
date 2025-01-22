@@ -116,4 +116,9 @@ public partial class MainForm : Form
         mainForm.ShowDialog();
         this.Close();
     }
+
+    private void EmptyPictureBox_Click(object sender, EventArgs e)
+    {
+
+    }
 }
