@@ -8,14 +8,17 @@ public partial class MainForm : Form
 {
     private int countStep = 0;
     private int minStep = 24;
+
     public MainForm()
     {
         InitializeComponent();
         StartPosition = FormStartPosition.CenterScreen;
     }
+
     private void MainForm_Load(object sender, EventArgs e)
     {
     }
+
     private void Swap(PictureBox clickedPicture)
     {
         var location = clickedPicture.Location;
@@ -46,26 +49,31 @@ public partial class MainForm : Form
             }
         }
     }
+
     private void GetWinnerInfo()
     {
         WinTextLabel.Visible = true;
         WinPictureBox.Visible = true;
-        WordPictureBox.Visible = true;
+        VictoryPictureBox.Visible = true;
     }
+
     private void GetConfirmPlayAgain()
     {
         ContinueGameLabel.Visible = true;
         PlayButton.Visible = true;
         StopGameButton.Visible = true;
     }
+
     private bool GetPlacementLeftFrogs(PictureBox clickedPicture)
     {
-        return FrogPictireBox4.Location.X >= 550 && FrogPictureBox3.Location.X >= 550 && FrogPictureBox2.Location.X >= 550 && FrogPictureBox1.Location.X >= 550;
+        return FrogPictireBox4.Location.X >= 508 && FrogPictureBox3.Location.X >= 508 && FrogPictureBox2.Location.X >= 508 && FrogPictureBox1.Location.X >= 508;
     }
+
     private bool GetPlacementRightFrogs(PictureBox clickedPicture)
     {
-        return FrogPictureBox5.Location.X <= 330 && FrogPictureBox6.Location.X <= 330 && FrogPictureBox7.Location.X <= 330 && FrogPictureBox8.Location.X <= 330;
+        return FrogPictureBox5.Location.X <= 360 && FrogPictureBox6.Location.X <= 360 && FrogPictureBox7.Location.X <= 360 && FrogPictureBox8.Location.X <= 360;
     }
+
     private void StopFrogMove()
     {
         FrogPictureBox1.Enabled = false;
@@ -77,48 +85,52 @@ public partial class MainForm : Form
         FrogPictureBox7.Enabled = false;
         FrogPictureBox8.Enabled = false;
     }
+
     private void GetSwapPlace(PictureBox clickedPicture, Point location)
     {
         clickedPicture.Location = EmptyPictureBox.Location;
         EmptyPictureBox.Location = location;
     }
+
     private int GetDistance(PictureBox clickedPicture)
     {
         return Math.Abs(clickedPicture.Location.X - EmptyPictureBox.Location.X) / EmptyPictureBox.Size.Width;
     }
+
     private void PictireBox_Click(object sender, EventArgs e)
     {
         Swap((PictureBox)sender);
     }
+
     private void PlayButton_MouseHover(object sender, EventArgs e)
     {
         PlayButton.BackColor = Color.IndianRed;
     }
+
     private void PlayButton_MouseLeave(object sender, EventArgs e)
     {
         PlayButton.BackColor = Color.RosyBrown;
     }
+
     private void StopGameButton_MouseHover(object sender, EventArgs e)
     {
         StopGameButton.BackColor = Color.IndianRed;
     }
+
     private void StopGameButton_MouseLeave(object sender, EventArgs e)
     {
         StopGameButton.BackColor = Color.RosyBrown;
     }
+
     private void StopGameButton_Click(object sender, EventArgs e)
     {
         Application.Exit();
     }
+
     private void PlayButton_Click(object sender, EventArgs e)
     {
         var mainForm = new MainForm();
         mainForm.ShowDialog();
-        this.Close();
-    }
-
-    private void EmptyPictureBox_Click(object sender, EventArgs e)
-    {
-
+        Close();
     }
 }
