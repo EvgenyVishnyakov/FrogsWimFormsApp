@@ -20,7 +20,7 @@ public partial class MainForm : Form
     {
         var location = clickedPicture.Location;
         int distatnce = GetDistance(clickedPicture);
-        if (distatnce > 2)
+        if (distatnce > 1)
         {
             MessageBox.Show("Так наши лягушонки не прыгают!");
         }
@@ -112,7 +112,7 @@ public partial class MainForm : Form
     }
     private void PlayButton_Click(object sender, EventArgs e)
     {
-        MainForm mainForm = new MainForm();
+        var mainForm = new MainForm();
         mainForm.ShowDialog();
         this.Close();
     }
