@@ -66,13 +66,12 @@ public partial class MainForm : Form
 
     private bool GetPlacementLeftFrogs(PictureBox clickedPicture)
     {
-        var t = Location.X;
         return FrogPictireBox4.Location.X > Location.X && FrogPictureBox3.Location.X > Location.X && FrogPictureBox2.Location.X > Location.X && FrogPictureBox1.Location.X > Location.X;
     }
 
     private bool GetPlacementRightFrogs(PictureBox clickedPicture)
     {
-        return FrogPictureBox5.Location.X < Location.X && FrogPictureBox6.Location.X < Location.X && FrogPictureBox7.Location.X < Location.X && FrogPictureBox8.Location.X < Location.X;
+        return FrogPictureBox5.Location.X < Location.X - FrogPictureBox5.Width && FrogPictureBox6.Location.X < Location.X - FrogPictureBox6.Width && FrogPictureBox7.Location.X < Location.X - FrogPictureBox7.Width && FrogPictureBox8.Location.X < Location.X - FrogPictureBox8.Width;
     }
 
     private void StopFrogMove()

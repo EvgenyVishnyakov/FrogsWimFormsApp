@@ -68,7 +68,6 @@
             FrogPictureBox1.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox1.Location = new System.Drawing.Point(137, 0);
             FrogPictureBox1.Name = "FrogPictureBox1";
-            FrogPictureBox1.Padding = new System.Windows.Forms.Padding(3);
             FrogPictureBox1.Size = new System.Drawing.Size(76, 68);
             FrogPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             FrogPictureBox1.TabIndex = 0;
@@ -83,7 +82,6 @@
             FrogPictureBox2.InitialImage = Properties.Resources.Лягушка_вправо;
             FrogPictureBox2.Location = new System.Drawing.Point(211, 0);
             FrogPictureBox2.Name = "FrogPictureBox2";
-            FrogPictureBox2.Padding = new System.Windows.Forms.Padding(3);
             FrogPictureBox2.Size = new System.Drawing.Size(75, 68);
             FrogPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             FrogPictureBox2.TabIndex = 1;
